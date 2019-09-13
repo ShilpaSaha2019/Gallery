@@ -31,14 +31,17 @@
         #outerDiv
         { 
             width: auto;
-            height: 900px;
+            height: auto;
             margin: 2% 20% 2% 20%;
-            background-image: url(./bg.png);
+            
         
         }
-        #logout
+
+        .buttonDiv
         {
-            margin: 1% 50% 1% 48.5%;
+            margin: 1% 45% 1% 48.5%;
+
+
         }  
         #uploadButton
         {

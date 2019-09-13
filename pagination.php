@@ -1,12 +1,11 @@
 <?php  
 //connect to database
 require 'connection.php';
-
 //define how many results you want per page
 $results_per_page = 2;
 
 //find number of results stored in database
-$query = "SELECT * FROM `photos` WHERE id='{$_SESSION['ID']}'";
+$query = "SELECT * FROM `photos` WHERE userId='{$_SESSION['ID']}'";
 $result = $link->query($query);
 $number_of_results = $result->num_rows;
 
